@@ -1,0 +1,38 @@
+{
+  "name": "nodeprojects",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass  --embed-source-map --watch  src/resource/scss/app.scss src/public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buiducviettt/nodejs_project.git"
+  },
+  "keywords": [
+    "ducviet",
+    "f8",
+    "f8",
+    "node",
+    "js"
+  ],
+  "author": "Duc Viet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buiducviettt/nodejs_project/issues"
+  },
+  "homepage": "https://github.com/buiducviettt/nodejs_project#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="course_page mt-4">
+    <div class="course_list">
+        <div class="row">
+            {{#each courses}}
+            <div class="col col-md-3 col-sm-6 col-xs-12">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{{this.image}}" class="card-img-top" alt="{{this.name}}">
+                    <div class="card_body">
+                        <h5 class="card_stitle">{{this.name}}</h5>
+                        <p class="card_text">{{this.description}}</p>
+                        <a href="/course/{{this.slug}}" class="btn btn-primary">View Course</a>
+                    </div>
+            </div>   
+            </div>
+            {{/each}}  
+    </div>   
+</div>
